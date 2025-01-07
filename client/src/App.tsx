@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import PaperTrader from './components/PaperTrader';
+
 import Chat from './components/Chat';
 import Roadmap from './components/Roadmap';
 
