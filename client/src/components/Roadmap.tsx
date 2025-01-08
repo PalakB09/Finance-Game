@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TrendingUp, MessageSquare, TrendingUpIcon } from 'lucide-react';
+import { TrendingUpIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button, } from './ui/button';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from './ui/dialog';
