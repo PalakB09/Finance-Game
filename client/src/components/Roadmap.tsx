@@ -38,22 +38,11 @@ type Quizzes = {
 };
 
 const colorMap: ColorMap = {
-  'bg-green-400': 'bg-green-200',
-  'bg-green-700': 'bg-green-500',
-  'bg-yellow-500': 'bg-yellow-300',
-  'bg-orange-400': 'bg-orange-200',
-  'bg-red-500': 'bg-red-300',
-  'bg-red-600': 'bg-red-400',
-  'bg-amber-700': 'bg-amber-500',
-  'bg-lime-400': 'bg-lime-200',
-  'bg-green-500': 'bg-green-300',
-  'bg-cyan-500': 'bg-cyan-300',
-  'bg-blue-600': 'bg-blue-400',
-  'bg-indigo-500': 'bg-indigo-300',
-  'bg-purple-500': 'bg-purple-300',
-  'bg-fuchsia-400': 'bg-fuchsia-200',
-  'bg-rose-500': 'bg-rose-300',
-  'bg-black': 'bg-gray-400',
+  'bg-pink-400': 'bg-FFB8BF',
+  'bg-pink-500': 'bg-FB928E',
+  'bg-orange-400': 'bg-DBA746', 
+  'bg-pink-300': 'bg-FBC4BF',
+  'bg-pink-600': 'bg-FB9AAC'
 };
 
 
@@ -61,7 +50,7 @@ const topics: Topic[] = [
   { 
     id: 1, 
     name: 'Budgeting', 
-    color: 'bg-green-400', 
+    color: 'bg-pink-400', 
     x: 250, 
     y: 100, 
     des: 'Understanding how to create and manage a personal budget effectively.'
@@ -69,7 +58,7 @@ const topics: Topic[] = [
   { 
     id: 2, 
     name: 'Saving Strategies', 
-    color: 'bg-green-700', 
+    color: 'bg-pink-500', 
     x: 750, 
     y: 320, 
     des: 'Different methods for saving money, including emergency funds and short-term vs. long-term savings.'
@@ -77,7 +66,7 @@ const topics: Topic[] = [
   { 
     id: 3, 
     name: 'Credit Scores and Reports', 
-    color: 'bg-yellow-500', 
+    color: 'bg-orange-400', 
     x: 200, 
     y: 520, 
     des: 'How credit scores are calculated, their importance, and how to improve them.'
@@ -85,7 +74,7 @@ const topics: Topic[] = [
   { 
     id: 4, 
     name: 'Understanding Interest Rates', 
-    color: 'bg-orange-400', 
+    color: 'bg-pink-300', 
     x: 800, 
     y: 720, 
     des: 'The difference between fixed and variable interest rates and their impact on loans and savings.'
@@ -93,7 +82,7 @@ const topics: Topic[] = [
   { 
     id: 5, 
     name: 'Types of Bank Accounts', 
-    color: 'bg-red-500', 
+    color: 'bg-pink-600', 
     x: 300, 
     y: 920, 
     des: 'Understanding checking accounts, savings accounts, money market accounts, and CDs.'
@@ -101,7 +90,7 @@ const topics: Topic[] = [
   { 
     id: 6, 
     name: 'Debt Management', 
-    color: 'bg-red-600', 
+    color: 'bg-pink-400', 
     x: 780, 
     y: 1120, 
     des: 'Strategies for managing and paying off debts, including student loans and credit card debt.'
@@ -109,7 +98,7 @@ const topics: Topic[] = [
   { 
     id: 7, 
     name: 'Taxes', 
-    color: 'bg-amber-700', 
+    color: 'bg-pink-500', 
     x: 150, 
     y: 1320, 
     des: 'Basics of income taxes, filing returns, tax brackets, and understanding deductions and credits.'
@@ -117,7 +106,7 @@ const topics: Topic[] = [
   { 
     id: 8, 
     name: 'Creating Emergency Fund', 
-    color: 'bg-lime-400', 
+    color: 'bg-orange-400', 
     x: 810, 
     y: 1520, 
     des: 'How much to save and why having an emergency fund is crucial for financial stability.'
@@ -125,7 +114,7 @@ const topics: Topic[] = [
   { 
     id: 9, 
     name: 'Retirement Accounts', 
-    color: 'bg-green-500', 
+    color: 'bg-pink-300', 
     x: 250, 
     y: 1720, 
     des: 'Understanding 401(k)s, IRAs, and Roth IRAs, and the importance of saving for retirement early.'
@@ -133,7 +122,7 @@ const topics: Topic[] = [
   { 
     id: 10, 
     name: 'Insurance Basics', 
-    color: 'bg-cyan-500', 
+    color: 'bg-pink-600', 
     x: 830, 
     y: 1920, 
     des: 'Types of insurance (health, life, auto, renters) and why insurance is essential for financial security.'
@@ -141,7 +130,7 @@ const topics: Topic[] = [
   { 
     id: 11, 
     name: 'Compound Interest', 
-    color: 'bg-blue-600', 
+    color: 'bg-pink-400', 
     x: 310, 
     y: 2120, 
     des: 'The power of compound interest in savings and investments over time.'
@@ -149,7 +138,7 @@ const topics: Topic[] = [
   { 
     id: 12, 
     name: 'Understanding Loans', 
-    color: 'bg-indigo-500', 
+    color: 'bg-pink-500', 
     x: 930, 
     y: 2320, 
     des: 'Different types of loans (personal, auto, mortgages) and the implications of borrowing.'
@@ -157,7 +146,7 @@ const topics: Topic[] = [
   { 
     id: 13, 
     name: 'Financial Systems and Fraud', 
-    color: 'bg-purple-500', 
+    color: 'bg-orange-400', 
     x: 195, 
     y: 2520, 
     des: 'Identifying common financial scams and how to protect personal information.'
@@ -165,7 +154,7 @@ const topics: Topic[] = [
   { 
     id: 14, 
     name: 'Smart Investing Basics', 
-    color: 'bg-fuchsia-400', 
+    color: 'bg-pink-300', 
     x: 750, 
     y: 2720, 
     des: 'Introduction to stocks, bonds, mutual funds, ETFs, and the principles of risk and reward.'
@@ -173,7 +162,7 @@ const topics: Topic[] = [
   { 
     id: 15, 
     name: 'Emergency Funds', 
-    color: 'bg-rose-500', 
+    color: 'bg-pink-600', 
     x: 100, 
     y: 2920, 
     des: 'How much to save for emergencies and the importance of accessible liquid savings.'
@@ -181,14 +170,12 @@ const topics: Topic[] = [
   { 
     id: 16, 
     name: 'Financial Goal Setting', 
-    color: 'bg-black', 
+    color: 'bg-pink-400', 
     x: 600, 
     y: 3120, 
     des: 'How to set and achieve short-term and long-term financial goals.'
   }
 ];
-
-
 
 const quizzes: Quizzes = {
   'Budgeting': [
@@ -636,16 +623,10 @@ const Roadmap: React.FC = () => {
     <div className="min-h-screen bg-[#F9EFCC] overflow-x-hidden relative">
       {/* Fixed Sidebar Boxes */}
       <div className="fixed left-4 bottom-4 w-64 space-y-4 z-20">
-        <Link to="/chat" className="block">
-          <div className="bg-green-600 text-white p-6 rounded-lg shadow-lg hover:bg-green-700 transition-colors">
-            <MessageSquare size={32} className="mb-2" />
-            <h2 className="text-xl font-bold">Chat to our AI assistant</h2>
-          </div>
-        </Link>
         <Link to="/papertrade" className="block">
-          <div className="bg-blue-600 text-white p-6 rounded-lg shadow-lg hover:bg-blue-700 transition-colors">
+          <div className="bg-pink-400 text-white p-6 rounded-lg shadow-lg hover:bg-pink-600 transition-colors">
             <TrendingUpIcon size={32} className="mb-2" />
-            <h2 className="text-xl font-bold">Try our paper trading simulator</h2>
+            <h2 className="text-xl font-bold">Try our stock market simulator</h2>
           </div>
         </Link>
       </div>
@@ -653,14 +634,14 @@ const Roadmap: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pl-72">
         <header className="flex justify-between items-center py-6">
           <div className="flex items-center">
-            <div className="bg-green-700 text-white rounded-full p-3 mr-2">
-              <TrendingUp size={32} />
+            <div className="bg-white text-white rounded-full p-3 mr-2">
+              <img src="./public/logo_sakhi.png" alt="Logo" className="w-8 h-8" />
             </div>
             <h1 className="text-3xl font-bold text-gray-800">Centsify</h1>
           </div>
           <div className="flex items-center">
-            <p className="mr-4 text-purple-700 text-3xl">Hello, Rishita</p>
-            <div className="bg-gray-200 rounded-full px-4 py-2 flex items-center">
+            <p className="mr-4 text-purple-700 text-3xl font-semibold ">Hello, Rishita</p>
+            <div className="bg-white rounded-full px-4 py-2 flex items-center">
               <span className="mr-2 text-gray-700 text-lg">Level 1</span>
               <div className="w-20 h-3 bg-gray-300 rounded-full">
                 <div className="w-3/4 h-full bg-black rounded-full"></div>
@@ -706,7 +687,7 @@ const Roadmap: React.FC = () => {
 
           {hoveredTopic && (
             <div
-              className={`absolute p-4 rounded-lg shadow-lg text-gray-800 border border-gray-200 ${colorMap[hoveredTopic.color] || 'bg-gray-200'}`} 
+              className={`absolute p-4 rounded-lg shadow-lg text-black   border border-gray-200 ${colorMap[hoveredTopic.color] || 'bg-gray-200'}`} 
               style={{
                 left: `calc(50% + ${hoveredTopic.x > 400 ? hoveredTopic.x - 750 : hoveredTopic.x - 350}px)`,
                 top: hoveredTopic.y + 20, 

@@ -13,7 +13,7 @@ body{
     background-color: #f5e6d3;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    color: #5d4037;
+    color: #a9348a;
 }
 
 .header {
@@ -31,13 +31,13 @@ body{
     width: 32px;
     height: 32px;
     margin-right: 10px;
-    color: #8d6e63;
+    color: #8e0268;
 }
 
 .title {
     font-size: 36px;
     font-weight: bold;
-    color: #8d6e63;
+    color: #8e0268;
 }
 
 .user-info {
@@ -48,7 +48,7 @@ body{
 .section-title {
     font-size: 28px;
     text-align: center;
-    color: #6d4c41;
+    color: #be6cc1;
     margin-bottom: 20px;
 }
 
@@ -95,7 +95,7 @@ body{
     border: none;
     cursor: pointer;
     font-size: 18px;
-    color: #8d6e63;
+    color: #de8a40;
 }
 
 .action-buttons {
@@ -118,13 +118,13 @@ body{
 }
 
 .action-button.buy {
-    background-color: #a1887f;
+    background-color: #eea3ed;
     color: #fff3e0;
 }
 
 .action-button.sell {
-    background-color: #bcaaa4;
-    color: #3e2723;
+    background-color: #ffffff;
+    color: #bd20a6;
 }
 
 .action-button:hover {
@@ -152,7 +152,7 @@ body{
     background: none;
     border: none;
     cursor: pointer;
-    color: #8d6e63;
+    color: #cb7454;
 }
 
 .portfolio-list {
@@ -183,7 +183,7 @@ body{
 }
 
 .icon-button {
-    background-color: #a1887f;
+    background-color: #c97d62;
     color: #fff3e0;
     border: none;
     border-radius: 50%;
@@ -209,7 +209,7 @@ body{
 
 .landing-page {
     background-color: #f5e6d3;
-    color: #5d4037;
+    color: #c0735b;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -221,7 +221,7 @@ body{
 
 .hero-title {
     font-size: 3rem;
-    color: #8d6e63;
+    color: #de8e71;
     margin-bottom: 1rem;
 }
 
