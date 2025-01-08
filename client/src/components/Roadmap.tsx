@@ -14,9 +14,6 @@ type Topic = {
   des: string;
 };
 
-type ColorMap = {
-  [key: string]: string;
-};
 
 type Question = {
   questionText: string;
