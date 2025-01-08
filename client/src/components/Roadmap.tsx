@@ -687,18 +687,18 @@ const Roadmap: React.FC = () => {
 
           {hoveredTopic && (
             <div
-              className={`absolute p-4 rounded-lg shadow-lg text-black   border border-gray-200 ${colorMap[hoveredTopic.color] || 'bg-gray-200'}`} 
+              className={`absolute p-4 rounded-lg shadow-lg text-black bg-white border border-gray-200`} 
               style={{
-                left: `calc(50% + ${hoveredTopic.x > 400 ? hoveredTopic.x - 750 : hoveredTopic.x - 350}px)`,
-                top: hoveredTopic.y + 20, 
-                zIndex: 10,
-                maxWidth: '250px',
+              left: `calc(50% + ${hoveredTopic.x > 400 ? hoveredTopic.x - 750 : hoveredTopic.x - 350}px)`,
+              top: hoveredTopic.y + 20, 
+              zIndex: 10,
+              maxWidth: '250px',
               }}
             >
               <h3 className="text-xl font-semibold mb-2">{hoveredTopic.name}</h3>
               <p className="text-sm">{hoveredTopic.des}</p>
               {!isTopicUnlocked(hoveredTopic.id) && (
-                <p className="text-sm mt-2 text-red-500">Complete the previous topic to unlock this one.</p>
+              <p className="text-sm mt-2 text-red-500">Complete the previous topic to unlock this one.</p>
               )}
             </div>
           )}
