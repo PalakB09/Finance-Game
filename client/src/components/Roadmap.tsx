@@ -635,9 +635,9 @@ const Roadmap: React.FC = () => {
         <header className="flex justify-between items-center py-6">
           <div className="flex items-center">
             <div className="bg-white text-white rounded-full p-3 mr-2">
-              <img src="./public/logo_sakhi.png" alt="Logo" className="w-8 h-8" />
+              <img src="./src/assets/logo_sakhi.png" alt="Logo" className="w-8 h-8" />
             </div>
-            <h1 className="text-3xl font-bold text-gray-800">Centsify</h1>
+            <h1 className="text-3xl font-bold text-gray-800">Udaan</h1>
           </div>
           <div className="flex items-center">
             <p className="mr-4 text-purple-700 text-3xl font-semibold ">Hello, Rishita</p>
