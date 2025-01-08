@@ -37,13 +37,6 @@ type Quizzes = {
   [key: string]: Question[];
 };
 
-const colorMap: ColorMap = {
-  'bg-pink-400': 'bg-FFB8BF',
-  'bg-pink-500': 'bg-FB928E',
-  'bg-orange-400': 'bg-DBA746', 
-  'bg-pink-300': 'bg-FBC4BF',
-  'bg-pink-600': 'bg-FB9AAC'
-};
 
 
 const topics: Topic[] = [
